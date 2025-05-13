@@ -1,0 +1,37 @@
+name: easyjson
+id: ari:cloud:compass:d9f1e0b4-bbce-4bc5-8ca1-73ba50a4d868:component/d87c76ce-d35e-454d-a6d6-9614c126a7a5/f34958cf-172d-4f7e-ad13-3b9c75ceef7a
+description: Fast JSON serializer for golang.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/sipgate/easyjson
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: Business SLA
+    type: single_select
+    value: null
+  - name: Business SLO
+    type: single_select
+    value: null
+  - name: Deployed on
+    type: multi_select
+    value: null
+  - name: Last Build successful
+    type: boolean
+    value: false
+  - name: Processes Credit Card Data
+    type: single_select
+    value: null
+  - name: Requires Local State
+    type: single_select
+    value: null
+  - name: Service Hours
+    type: single_select
+    value: null
